@@ -19,6 +19,9 @@ BUTTON_COLOUR, HOVER_COLOUR = "gray", "r"
 
 
 class Placeholder(ttk.Entry):
+    """
+        https://stackoverflow.com/questions/27820178/how-to-add-placeholder-to-an-entry-in-tkinter
+    """
     def __init__(self, master=None,
                  placeholder='',
                  fg='black',
@@ -50,6 +53,7 @@ class Placeholder(ttk.Entry):
 
 class SimpleDialog(ttk.Frame):
     """"
+    https://stackoverflow.com/questions/50573260/simpledialog-simpledialog-in-python-with-2-inputsh
         Various Options are:
             anchor: This options is used to control the positioning of the text if the widget has more space than
                     required for the text. The default is anchor=CENTER, which centers the text in the available space.
