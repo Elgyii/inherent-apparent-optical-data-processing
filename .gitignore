@@ -1,0 +1,19 @@
+
+
+
+# ignore folders
+MODIS-Aqua/
+.ipynb*/
+.idea
+
+# ignore python cache
+__pycache__/
+
+
+# ingone data files
+add_font.py
+
+*.ipynb
+debugger*
+
+        
